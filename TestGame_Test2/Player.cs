@@ -68,6 +68,7 @@ namespace TestGame {
             Console.Clear();
             Console.WriteLine(Name + "was killed");
             Console.ReadKey();
+	        Environment.Exit(0);
         }
 
         public void DrinkPotion() {

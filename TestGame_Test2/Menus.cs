@@ -83,6 +83,15 @@ namespace TestGame {
                 player.Skillpoints = -enterednum;
                 Console.Clear();
             }
+            player.Strength = 1;
+
+            player.Maxhealth =  5;
+            player.Currenthealth =  5;
+
+            player.Magic = 1;
+            player.Maxmana =  5;
+            player.Currentmana =  5;
+
             player.Level = 1;
             player.ExpForLevel /= 10;
         }

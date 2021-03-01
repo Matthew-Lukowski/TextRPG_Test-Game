@@ -100,6 +100,7 @@ namespace TestGame {
                     if (Menus.player.Gold >= 10) {
                         Menus.player.Gold = -10;
                         Menus.player.Strength = 1;
+                        Shop();
                     } else {
                         Console.Clear();
                         Console.WriteLine("You cant afford the upgrade");
@@ -113,6 +114,7 @@ namespace TestGame {
                         Menus.player.Gold = -10;
                         Menus.player.Maxhealth = 5;
                         Menus.player.Currenthealth = 5;
+                        Shop();
 
                     } else {
                         Console.Clear();
@@ -126,6 +128,7 @@ namespace TestGame {
                     if (Menus.player.Gold >= 10) {
                         Menus.player.Gold = -10;
                         Menus.player.Magic = 1;
+                        Shop();
                     } else {
                         Console.Clear();
                         Console.WriteLine("You cant afford the upgrade");
